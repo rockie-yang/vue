@@ -4,9 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    build: {
-        server: { port: 3037, cors: false, proxy: { "/auth/github/": "http://localhost:3036/auth/github" } },
-    },
+    server: { port: 3037, cors: false, proxy: { "/api": "http://localhost:3036" } },
+    build: {},
     plugins: [
         vue({
             template: {

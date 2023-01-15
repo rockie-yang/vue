@@ -1,3 +1,3 @@
 # vue template
 
-npx degit rockie-yang/vue
+npx degit rockie-yang/vue wimage
